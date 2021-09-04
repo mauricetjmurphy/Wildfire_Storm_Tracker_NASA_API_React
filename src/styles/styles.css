@@ -1,0 +1,82 @@
+* {
+    font-family: montserrat;
+}
+
+.main-container {
+    display: flex;
+    max-height: 100vh;
+}
+
+.storm-marker {
+    font-size: 2rem;
+    color: #2d7ffa;
+    cursor: pointer;
+}
+
+.map {
+    width: 75vw;
+    height: calc(100vh - 120px);
+    display: flex;
+    border: 1px solid #d4d4d4;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.location-icon {
+    font-size: 2rem;
+    color: orange;
+    cursor: pointer;
+}
+
+nav {
+    background: #ffffff;
+}
+
+.events-bar {
+    width: 25vw;
+    padding: 15px;
+    background: #fff;
+    margin: 15px;
+    border: 1px solid #e2e1de;
+    border-radius: 10px;
+    max-height: calc(100vh - 80px);
+}
+
+h1 {
+    font-size: 24px;
+    width: 100%;
+    color: hsl(0deg 0% 10%);
+}
+
+li {
+    list-style-type: none;
+    padding-top: 10px;
+    font-size: 16px;
+    color: hsl(0deg 0% 10%);
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    color: hsl(0deg 0% 10%);
+}
+
+a {
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: bold;
+    color: hsl(0deg 0% 10%);
+}
+
+.btn {
+    padding: 10px 20px;
+    margin: 0 10px;
+}
+
+.storm {
+    background: hsl(210deg 89% 40%);
+}
+
+.wildfire {
+    background: orange;
+}
