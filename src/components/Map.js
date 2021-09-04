@@ -71,7 +71,7 @@ export default function Map({
             <div className="map">
                 <GoogleMapReact
                     bootstrapURLKeys={{
-                        key: "AIzaSyBmSxFoC3p2CH8ToKG8XUBAUqM4kEIUhjI",
+                        key: process.env.MAPS_API_KEY,
                     }}
                     defaultCenter={
                         currentPosition
@@ -89,7 +89,7 @@ export default function Map({
             <div className="map">
                 <GoogleMapReact
                     bootstrapURLKeys={{
-                        key: "AIzaSyBmSxFoC3p2CH8ToKG8XUBAUqM4kEIUhjI",
+                        key: process.env.MAPS_API_KEY,
                     }}
                     defaultCenter={
                         currentPosition
