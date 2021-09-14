@@ -1,7 +1,8 @@
 import React from "react";
 import EventInfo from "./EventInfo";
 
-import "../styles/styles.css";
+import "../../styles/styles.css";
+import "./events-bar.css";
 
 const EventsBar = ({ eventInfo }) => {
     return (

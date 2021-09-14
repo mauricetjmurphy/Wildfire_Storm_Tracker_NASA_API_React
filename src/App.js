@@ -1,11 +1,11 @@
 import { useState, useEffect } from "react";
-import Map from "./components/Map";
 import Loader from "./components/Loader";
-import Navbar from "./components/Navbar";
-import EventsBar from "./components/EventsBar";
+import Navbar from "./components/navbar/Navbar";
+import EventsBar from "./components/events-bar/EventsBar";
 
 import "./styles/App.css";
 import "./styles/styles.css";
+import LeafletMap from "./components/map/LeafletMap";
 
 function App() {
     const [eventData, setEventData] = useState([]);
@@ -72,15 +72,9 @@ function App() {
             />
 
             {!loading ? (
-                <div className="main-container">
-                    <Map
-                        isWildfire={isWildfire}
-                        eventData={eventData}
-                        setEventInfo={setEventInfo}
-                        currentPosition={currentPosition}
-                    />
-                    <EventsBar eventInfo={eventInfo} />
-                </div>
+                <>
+                    <LeafletMap eventData={eventData} /> <EventsBar />
+                </>
             ) : (
                 <Loader />
             )}

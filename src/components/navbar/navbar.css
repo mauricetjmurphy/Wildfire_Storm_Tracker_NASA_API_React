@@ -1,0 +1,33 @@
+.nav {
+    max-width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    background: #0376b5;
+    color: #fff;
+}
+
+.nav-brand {
+    font-size: 22px;
+    text-decoration: none;
+    padding: 0 10px;
+    color: #fff;
+}
+
+.item-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-container.active {
+    background-color: #0a4c758a;
+}
+
+.nav-item {
+    color: #fff;
+    padding: 0 20px;
+    cursor: pointer;
+}

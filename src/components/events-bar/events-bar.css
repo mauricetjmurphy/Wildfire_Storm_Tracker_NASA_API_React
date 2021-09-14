@@ -1,0 +1,14 @@
+.events-bar {
+    position: absolute;
+    top: 70px;
+    right: 0;
+    width: 250px;
+    height: 200px;
+    padding: 15px;
+    background: #fff;
+    opacity: 80%;
+    margin: 15px;
+    border: 1px solid #e2e1de;
+    border-radius: 10px;
+    z-index: 500;
+}
