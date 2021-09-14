@@ -48,7 +48,8 @@ function App() {
 
             {!loading ? (
                 <>
-                    <LeafletMap eventData={eventData} /> <EventsBar />
+                    <LeafletMap eventData={eventData} />
+                    <EventsBar />
                 </>
             ) : (
                 <Loader />

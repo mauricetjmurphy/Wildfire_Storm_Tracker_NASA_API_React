@@ -7,6 +7,7 @@ import "./events-bar.css";
 const EventsBar = ({ eventInfo }) => {
     return (
         <div className="events-bar">
+            <p>Information</p>
             {eventInfo && <EventInfo eventInfo={eventInfo} />}
         </div>
     );

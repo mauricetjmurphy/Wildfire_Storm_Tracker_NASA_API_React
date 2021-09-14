@@ -1,5 +1,7 @@
 .events-bar {
-    position: absolute;
+    position: fixed;
+    display: flex;
+    justify-content: center;
     top: 70px;
     right: 0;
     width: 250px;
@@ -10,5 +12,10 @@
     margin: 15px;
     border: 1px solid #e2e1de;
     border-radius: 10px;
-    z-index: 500;
+    z-index: 1000 !important;
+}
+
+.events-bar p {
+    font-size: 20px;
+    margin: 0;
 }
