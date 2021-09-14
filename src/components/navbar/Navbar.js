@@ -14,11 +14,7 @@ const Navbar = ({ isWildfire, selectIsWildfire, selectIsStorm }) => {
             <div onClick={selectIsWildfire} className="item-container active">
                 <p className="nav-item">Wildfires</p>
             </div>
-            <div
-                className="item-container"
-                onClick={selectIsStorm}
-                className={!isWildfire ? "btn storm" : "btn"}
-            >
+            <div className="item-container" onClick={selectIsStorm}>
                 <p className="nav-item">Storms</p>
             </div>
         </nav>

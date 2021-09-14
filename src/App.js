@@ -10,32 +10,7 @@ import LeafletMap from "./components/map/LeafletMap";
 function App() {
     const [eventData, setEventData] = useState([]);
     const [loading, setLoading] = useState(false);
-    const [eventInfo, setEventInfo] = useState(null);
-    const [currentPosition, setCurrentPosition] = useState({});
     const [isWildfire, setIsWildfire] = useState(true);
-
-    var options = {
-        enableHighAccuracy: true,
-        timeout: 5000,
-        maximumAge: 0,
-    };
-
-    function success(pos) {
-        var crd = pos.coords;
-
-        setCurrentPosition({
-            center: {
-                lat: crd.latitude,
-                lng: crd.longitude,
-            },
-        });
-    }
-
-    function error(err) {
-        console.warn(`ERROR(${err.code}): ${err.message}`);
-    }
-
-    navigator.geolocation.getCurrentPosition(success, error, options);
 
     useEffect(() => {
         const fetchEvents = async () => {

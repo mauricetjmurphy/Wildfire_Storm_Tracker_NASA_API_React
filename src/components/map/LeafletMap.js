@@ -1,8 +1,7 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import "../../styles/styles.css";
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
 import "./map.css";
-import L from "leaflet";
 
 function LeafletMap({ eventData }) {
     return (

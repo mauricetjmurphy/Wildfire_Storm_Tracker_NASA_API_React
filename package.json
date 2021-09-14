@@ -1,5 +1,5 @@
 {
-    "homepage": "http://mauricetjmurphy.github.io/Wildfire_Storm_Tracker_NASA_API",
+    "homepage": "http://mauricetjmurphy.github.io/Wildfire_Storm_Tracker_NASA_API_React",
     "name": "wildfire_tracker",
     "version": "0.1.0",
     "private": true,
@@ -28,7 +28,9 @@
         "start": "react-app-rewired start",
         "build": "react-app-rewired build",
         "test": "react-app-rewired test",
-        "eject": "react-scripts eject"
+        "eject": "react-scripts eject",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build"
     },
     "eslintConfig": {
         "extends": [
