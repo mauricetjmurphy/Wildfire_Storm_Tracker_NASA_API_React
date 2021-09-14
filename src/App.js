@@ -1,11 +1,10 @@
 import { useState, useEffect } from "react";
 import Loader from "./components/Loader";
 import Navbar from "./components/navbar/Navbar";
-import EventsBar from "./components/events-bar/EventsBar";
+import MapInfoContainer from "./components/map/MapInfoConatiner";
 
 import "./styles/App.css";
 import "./styles/styles.css";
-import LeafletMap from "./components/map/LeafletMap";
 
 function App() {
     const [eventData, setEventData] = useState([]);
@@ -46,14 +45,7 @@ function App() {
                 selectIsStorm={selectIsStorm}
             />
 
-            {!loading ? (
-                <>
-                    <LeafletMap eventData={eventData} />
-                    <EventsBar />
-                </>
-            ) : (
-                <Loader />
-            )}
+            {!loading ? <MapInfoContainer eventData={eventData} /> : <Loader />}
         </div>
     );
 }

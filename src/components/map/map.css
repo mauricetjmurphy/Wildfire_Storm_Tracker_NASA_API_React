@@ -1,5 +1,10 @@
+.map-container {
+    display: flex;
+    min-width: 100vw;
+}
+
 .map {
     position: relative;
-    width: 100vw;
+    width: 75%;
     height: calc(100vh - 60px);
 }
