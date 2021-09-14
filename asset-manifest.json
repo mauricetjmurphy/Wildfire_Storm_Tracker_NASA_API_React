@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Wildfire_Storm_Tracker_NASA_API/static/css/main.cd64ad34.chunk.css",
-    "main.js": "/Wildfire_Storm_Tracker_NASA_API/static/js/main.cd0b7992.chunk.js",
-    "main.js.map": "/Wildfire_Storm_Tracker_NASA_API/static/js/main.cd0b7992.chunk.js.map",
-    "runtime-main.js": "/Wildfire_Storm_Tracker_NASA_API/static/js/runtime-main.9066afff.js",
-    "runtime-main.js.map": "/Wildfire_Storm_Tracker_NASA_API/static/js/runtime-main.9066afff.js.map",
-    "static/js/2.42fec3e5.chunk.js": "/Wildfire_Storm_Tracker_NASA_API/static/js/2.42fec3e5.chunk.js",
-    "static/js/2.42fec3e5.chunk.js.map": "/Wildfire_Storm_Tracker_NASA_API/static/js/2.42fec3e5.chunk.js.map",
-    "index.html": "/Wildfire_Storm_Tracker_NASA_API/index.html",
-    "static/css/main.cd64ad34.chunk.css.map": "/Wildfire_Storm_Tracker_NASA_API/static/css/main.cd64ad34.chunk.css.map",
-    "static/js/2.42fec3e5.chunk.js.LICENSE.txt": "/Wildfire_Storm_Tracker_NASA_API/static/js/2.42fec3e5.chunk.js.LICENSE.txt",
-    "static/media/spinner.e1e435ec.gif": "/Wildfire_Storm_Tracker_NASA_API/static/media/spinner.e1e435ec.gif"
+    "main.css": "/Wildfire_Storm_Tracker_NASA_API_React/static/css/main.cd64ad34.chunk.css",
+    "main.js": "/Wildfire_Storm_Tracker_NASA_API_React/static/js/main.cd0b7992.chunk.js",
+    "main.js.map": "/Wildfire_Storm_Tracker_NASA_API_React/static/js/main.cd0b7992.chunk.js.map",
+    "runtime-main.js": "/Wildfire_Storm_Tracker_NASA_API_React/static/js/runtime-main.3de1400c.js",
+    "runtime-main.js.map": "/Wildfire_Storm_Tracker_NASA_API_React/static/js/runtime-main.3de1400c.js.map",
+    "static/js/2.42fec3e5.chunk.js": "/Wildfire_Storm_Tracker_NASA_API_React/static/js/2.42fec3e5.chunk.js",
+    "static/js/2.42fec3e5.chunk.js.map": "/Wildfire_Storm_Tracker_NASA_API_React/static/js/2.42fec3e5.chunk.js.map",
+    "index.html": "/Wildfire_Storm_Tracker_NASA_API_React/index.html",
+    "static/css/main.cd64ad34.chunk.css.map": "/Wildfire_Storm_Tracker_NASA_API_React/static/css/main.cd64ad34.chunk.css.map",
+    "static/js/2.42fec3e5.chunk.js.LICENSE.txt": "/Wildfire_Storm_Tracker_NASA_API_React/static/js/2.42fec3e5.chunk.js.LICENSE.txt",
+    "static/media/spinner.e1e435ec.gif": "/Wildfire_Storm_Tracker_NASA_API_React/static/media/spinner.e1e435ec.gif"
   },
   "entrypoints": [
-    "static/js/runtime-main.9066afff.js",
+    "static/js/runtime-main.3de1400c.js",
     "static/js/2.42fec3e5.chunk.js",
     "static/css/main.cd64ad34.chunk.css",
     "static/js/main.cd0b7992.chunk.js"
